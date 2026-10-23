@@ -12,12 +12,12 @@ The application features a clean, high-contrast Neo-Brutalist design with bold y
 
 ### 1. Sign In Page
 The login screen provides a straightforward interface for returning users to enter their email and password, alongside quick navigation buttons to create an account or recover a lost password.
-[alt text](image.png)
+![Sign In Page][alt text](image.png)
 
 ### 2. Create an Account Page
 The registration form captures the user's full name, email, and password (with a minimum 8-character requirement and confirmation field)[cite: 8]. It also requires the user to select and answer a security question (e.g., "What is your pet name?") for account recovery.
 
-[alt text](image-1.png)
+![Reset Password Page][alt text](image-1.png)
 
 ### 3. Password Recovery (Forgot Password)
 When a user forgets their password, they simply enter their registered email address and can choose between two verification methods: "Via Security Question" or "Via OTP".
