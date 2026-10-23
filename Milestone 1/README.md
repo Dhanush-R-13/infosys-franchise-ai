@@ -8,22 +8,21 @@ It features a custom Neo-Brutalist UI and a secure SQLite backend tailored for i
 
 ## 🎨 User Interface (UI) Previews
 
-The application features a clean, high-contrast Neo-Brutalist design with bold yellow buttons, dark drop shadows, and styled input fields[cite: 7, 8, 9]. 
+The application features a clean, high-contrast Neo-Brutalist design with bold yellow buttons, dark drop shadows, and styled input fields. 
 
 ### 1. Sign In Page
-The login screen provides a straightforward interface for returning users to enter their email and password, alongside quick navigation buttons to create an account or recover a lost password[cite: 7].
-
-![Sign In Page]![alt text](image.png)
+The login screen provides a straightforward interface for returning users to enter their email and password, alongside quick navigation buttons to create an account or recover a lost password.
+[alt text](image.png)
 
 ### 2. Create an Account Page
-The registration form captures the user's full name, email, and password (with a minimum 8-character requirement and confirmation field)[cite: 8]. It also requires the user to select and answer a security question (e.g., "What is your pet name?") for account recovery[cite: 8].
+The registration form captures the user's full name, email, and password (with a minimum 8-character requirement and confirmation field)[cite: 8]. It also requires the user to select and answer a security question (e.g., "What is your pet name?") for account recovery.
 
-![Create Account Page]![alt text](image-1.png)
+[alt text](image-1.png)
 
 ### 3. Password Recovery (Forgot Password)
-When a user forgets their password, they simply enter their registered email address and can choose between two verification methods: "Via Security Question" or "Via OTP"[cite: 9].
+When a user forgets their password, they simply enter their registered email address and can choose between two verification methods: "Via Security Question" or "Via OTP".
 
-![Reset Password Page]![alt text](image-2.png)
+[alt text](image-2.png)
 
 ---
 
@@ -37,6 +36,7 @@ This application provides a fully functional authentication system that prioriti
 * **Advanced Password Recovery:** 
   * **Security Question:** Users can recover accounts by answering a pre-set security question.
   * **Email OTP Verification:** Users can request a securely generated 6-digit OTP sent directly to their registered email via Gmail SMTP. The OTP expires in 5 minutes.
+  ![alt text](image-3.png)
 * **Password History Enforcement:** When resetting a password, the system checks the database password history to ensure the user is not reusing a previously used password.
 * **Role-Based Dashboards:** 
   * Logging in as an Administrator (e.g., `infosys@ai`) opens a dedicated Admin Panel.
